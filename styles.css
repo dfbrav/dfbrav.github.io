@@ -1,0 +1,79 @@
+@charset "utf-8";
+body {
+    background-color: #D6A176;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+}
+#container {
+    width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bolder;
+    font-size: x-large;
+    line-height: 42px;
+}
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2FC6F0;
+    border: thin solid #000000;
+    border-radius: 9px 9px 0px 0px;
+}
+#ScenicPic {
+    width: 745px;
+    float: right;
+    background-image: url(Snowy_OC.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: content-box;
+    border-width: thin;
+    border-style: solid;
+    height: 500px;
+}
+#introduction {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    background-color: #FFFFFF;
+    border: thin solid #000000;
+    width: 647px;
+    font-style: normal;
+    font-size: x-large;
+    line-height: 29px;
+    text-align: left;
+    height: 500px;
+    text-indent: 0px;
+}
+#sketchfab-embed-wrapper {
+}
+#footer {
+    background-color: #2FC6F0;
+    height: auto;
+    width: auto;
+    border: thin solid #000000;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+#logo {
+    float: left;
+    background-image: url(SD_Logo.png);
+    width: 131px;
+    height: 121px;
+    margin-top: 8px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 18px;
+    border: thin solid #FFFFFF;
+    background-size: contain;
+    background-position: 0% 0%;
+
+}
