@@ -53,6 +53,10 @@ body {
     text-indent: 0px;
 }
 #sketchfab-embed-wrapper {
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
 }
 #footer {
     background-color: #2FC6F0;
