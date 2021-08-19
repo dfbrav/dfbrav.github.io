@@ -311,6 +311,7 @@ input, select, textarea {
 
 		.row.aln-middle {
 			align-items: center;
+			width: 150%;
 		}
 
 		.row.aln-bottom {
