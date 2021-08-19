@@ -306,6 +306,7 @@ input, select, textarea {
 
 		.row.aln-top {
 			align-items: flex-start;
+			position: fixed;
 		}
 
 		.row.aln-middle {
@@ -2435,12 +2436,17 @@ input, select, textarea {
 /* Sidebar */
 
 	#sidebar > hr {
+		position: fixed;
 		top: 3em;
 		margin-bottom: 6em;
 	}
 
 		#sidebar > hr.first {
-			display: none;
+			position: fixed;
+			display: inline-block; 
+			top: 70em;
+			margin-bottom: 60em;
+			
 		}
 
 	#sidebar > section {
