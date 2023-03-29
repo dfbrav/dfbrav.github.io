@@ -128,6 +128,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 2.85em;
+		
 	}
 
 	h3 {
@@ -187,6 +188,7 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
+		
 	}
 
 	br.clear {
@@ -238,7 +240,7 @@ input, select, textarea {
 		@media screen and (max-width : 1280px ){
 
 			.container {
-				width: 1200px;
+				width: 100%;
 			}
 
 		}
@@ -1790,7 +1792,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			width: 100%;
+			width: 80%;
 		}
 
 		.image.fit {
@@ -1806,8 +1808,9 @@ input, select, textarea {
 
 		.image.featured2 {
 			display: block;
-			width: 80%;
+			width: 100%;
 			margin: 0 0 1em 0;
+			max-width: 1200px
 		}
 
 		.image.left {
@@ -1963,7 +1966,6 @@ input, select, textarea {
 	form textarea {
 		-webkit-appearance: none;
 		display: block;
-		border: 0;
 		background: #fafafa;
 		width: 100%;
 		border-radius: 0.5em;
