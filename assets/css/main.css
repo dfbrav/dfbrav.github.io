@@ -157,6 +157,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		max-width: 1200px;
 	}
 
 		a:hover {
@@ -188,6 +189,7 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
+		max-width: 900;
 		
 	}
 
@@ -557,6 +559,7 @@ input, select, textarea {
 
 				.row.aln-middle {
 					align-items: center;
+					max-width: 1500;
 				}
 
 				.row.aln-bottom {
