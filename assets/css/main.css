@@ -2484,7 +2484,13 @@ input, select, textarea {
 		background: #85ADB9;
 		color: #fff;
 	}
-
+	#footer2 {
+		position: relative;
+		overflow: hidden;
+		padding: 6em 0 6em 0;
+		background: #C39A88;
+		color: #fff;
+	}
 		#footer .icon.circled {
 			background: #fff;
 			color: #FFFFFF;
@@ -3090,7 +3096,31 @@ input, select, textarea {
 					top: 1em;
 					margin-bottom: 2.5em;
 				}
+		
+		#header1 {
+		
+				padding: 2.5em 0 0 0;
+			}
 
+				#header .inner {
+					padding-top: 1.5em;
+					padding-left: 1em;
+					padding-right: 1em;
+				}
+
+				#header header > p {
+					font-size: 1em;
+				}
+
+				#header h1 {
+					font-size: 1.75em;
+				}
+
+				#header hr {
+					top: 1em;
+					margin-bottom: 2.5em;
+				}
+		
 			body.homepage #header {
 				min-height: 0;
 				padding: 5.5em 0 5em 0;
